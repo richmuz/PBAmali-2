@@ -1,54 +1,71 @@
 <html>
 <head>
-	<title>Florist</title>
+	<title>Florist.co</title>
 	<style>
-		#yass a {
-			margin-right: 30px;
+		.body {
+			background: url(wave.gif);
+			background-size: 1365px;
+		}
+		.header h1 {
+			margin-left: 630px;
+			font-style: italic;
+		}
+		.header img {
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			border-style: solid;
+  			border-color: #E0FFFF;
+  			border-radius: 50px;
+  			width: 900px;
+		}
+		.content {
+		  	width: 50%;
+		  	border-style: solid;
+			text-align: center;
+			margin-left: 25%;
+			padding: 10px;
+			background-color: #E0FFFF;	
+			border-color: #ADD8E6;	
+			border-radius: 15px;
+		}
+		.kaki {
+			width: 52%;
+			text-align: center;
+			margin-left: 25%;
+			padding: 5px;
+			background-color: #87CEFA;
+			border-radius: 10px;
+		}
+		.content input {
+			margin: 10px;
 		}
 	</style>
 </head>
-<body style="background-color: rgb(204, 204, 255);">
-	<table>
-		<center>
-		<!--Ini Bahagian Banner-->
-		<img src="deoo.jpg">
+<body class="body">
+	<!--HEADER-->
+	<div class="header">
+		<img src="1KPD2 BANNER.png">
+	<h1 style="color: lightblue">FLORIST.CO</h1>
+	
+	</div>
+	<!--CONTENT-->
+	<div class="content" >
+	<form><center>
+		Nama Pengguna :<input type="text">
 		<br>
-	</table>
-		</center>
-		<!--Ini Bahagian Nav-->
-	<table id="yass">
-		<left>
-		<a href="utama.html">MENU</a><br>
-		<a href="maklumat.html">SHOP</a><br>
-		<a href="hubungi.html">ABOUT US</a>
+		Katalaluan : <input type="text">
 		<br>
-		</left>
-	</table>
-		<!--Ini Bahagian Content-->
-		<br><center>
-	<table width="76%" border="3">
-		<tr align="center">
-			<td>
-				<form>
-	<br>	USERNAME : <input type="text">	
-	<br>	PASSWORD : <input type="text">
-	<br>	<input type="submit">
-				</form>
-			</td>
-			
-		</tr>
-
-	</table>
+		<input type="submit" value="HANTAR">
 	</center>
-	<!--Ini Bahagian Footer-->
-	<br><center>
-	<table width="76%" bgcolor="purple" border="3">
-		<tr>
-		<td align="center">
-   			DEO._Florist &copy; KPD1033, 2022
-		</td>
-		</tr>
-	</table>
-</center>
+	</form>
+	</div>
+	<br>
+	<!--FOOTER-->
+	<div class="kaki">
+	<marquee>
+		<font>SISTEM PENDAFTARAN &copy; 2022</font>
+	</marquee>	
+	</div>
 </body>
 </html>
